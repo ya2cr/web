@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 1px white;
+    padding: 1%;
+    position:static;
+    
+}
+
+.cabecalho_logo{
+    border-radius: 100%;
+    max-width: 40%;
+}
+
+.cabecalho_titulo{
+    color:#7D677E;
+}
+
+a{
+    color: white;
+}
+
+.menu_lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5%;
+    padding-top: 1%;
+    padding-left: 15%;
+}
+
+.menu_lista_itens{
+    color: purple;
+    border:solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu_lista_itens:hover{
+    background-color: #7D677E;
+}
+
+.principal{
+    padding-top:2%;
+    padding-left: 10%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    gap: 2%;
+   align-items: center;
+   padding-bottom: 3%;
+}
+
+.principal_secao{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.principal_secao_titulo{
+    color: #7D677E;
+    font-size: 30px;
+}
+
+.principal_secao_texto{
+    font-size: 20px;
+    text-indent: 20px;
+
+}
+
+.principal_imagem{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    
+}
+
+.rodape{
+    border-top: solid 1px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #7D677E;
+    font-size: 18px;
+}
+
+.rodape_lista{
+    list-style: none;
+}
+
+.rodape_redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+   
+}
+
+
+.rodape_escola_item{
+    color: #7D677E;
+}
